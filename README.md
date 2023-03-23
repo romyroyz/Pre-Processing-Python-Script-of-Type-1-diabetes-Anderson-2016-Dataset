@@ -78,3 +78,7 @@ Save the cleaned dataset to a folder as a parquet file. We choose parquet format
 
 ```
 table.to_parquet('enter the filepath\\name_of_the_file_you_want_to_save.parquet',index=False,engine='pyarrow')
+```
+
+## Repurpose
+Repurpose the above script to clean data of Insulin, Medication, Ketones and Meal
